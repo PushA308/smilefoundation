@@ -569,7 +569,7 @@ header .nav-items {
         display: block;
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
         transition: 0.5s;
-        position: relative; }
+        position: relative; }/*
         .bg-07 .main-team-card .team-setup .team-items:hover .team-user-social {
           opacity: 1;
           visibility: visible;
@@ -579,7 +579,7 @@ header .nav-items {
           width: 100%;
           opacity: 1;
           visibility: visible;
-          display: block; }
+          display: block; }*/
         .bg-07 .main-team-card .team-setup .team-items .team-name {
           padding: 5px 0px;
           position: relative;
