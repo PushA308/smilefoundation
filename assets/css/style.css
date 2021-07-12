@@ -344,6 +344,21 @@ header .nav-items {
       height: 3px;
       background-color: #f47414; }
 
+.heading2 {
+  margin: 20px 0px;
+  text-align: left;
+  position: relative;
+  display: block;
+  text-align: center; }
+  .heading2 h2 {
+    font-size: 25px;
+    color: #222222;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block; }
+
 /*=================about us =================*/
 ._ab_er_we {
   padding: 50px 0px;
