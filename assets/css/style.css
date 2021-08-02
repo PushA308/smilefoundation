@@ -1865,4 +1865,10 @@ body {
 .grow:hover {
   height: 145px;
 }
+
+/*award details */
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
 /*# sourceMappingURL=style.css.map */
