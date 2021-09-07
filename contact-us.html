@@ -119,56 +119,92 @@
               </div>
             </div>
                  <div class="main-card-contact d-flex">
-                     <div class="sup-card-contact">
-                         <div class="sup-content">
-                             
-                             <div class="contact-title">
-                                 <h2>Contact Details</h2>
-                                 <ol>
-                                     <li><i class="far fa-map-marker-check"></i>Jadhav Nivas, Chha. Shivaji Maharaj <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Square,
-                                      Near Ganapati temple,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Wani - 445304,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Dist: Yavatmal, State: Maharashtra,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp India</li>
-                                     <li><i class="fal fa-mobile"></i>+91 9405980461 </li>
-                                     <li><i class="fal fa-envelope"></i>email@smilefoundation.org</li>
-                                     <li><i class="fal fa-clock"></i>Mon - Sat 8.00 - 18.00.</li>
-                                 </ol>
-                             </div>
-                         </div>
-                     </div>
+                    <div class="row">
 
-                     <div class="sup-card-contact-0a">
-                         <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
-                            <!-- Name -->
-                            <div class="form-group label-floating">
-                              <label class="control-label" for="name">Name</label>
-                              <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
-                              <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- email -->
-                            <div class="form-group label-floating">
-                              <label class="control-label" for="email">Email</label>
-                              <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
-                              <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- Subject -->
-                            <div class="form-group label-floating">
-                              <label class="control-label">Subject</label>
-                              <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
-                              <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- Message -->
-                            <div class="form-group label-floating">
-                                <label for="message" class="control-label">Message</label>
-                                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- Form Submit -->
-                            <div class="form-submit mt-5">
-                                <button class="btn btn-default" style="border: 2px solid #f47414;" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
-                            </div>
-                  </form>
-                     </div>
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                   
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+                <br>
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+                <br>
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+            <br>
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="validateForm();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><img src="assets/images/core-values/location.png">
+                    <p>Jadhav Nivas, Chha. Shivaji Maharaj Square, C/O Ganapati temple, Wani - 445304,Dist: Yavatmal, Maharashtra, India</p>
+                </li>
+                <br>
+                <li><img src="assets/images/core-values/phone-call.png">
+                    <p>+91 9405980461</p>
+                </li>
+                <br>
+                <li><img src="assets/images/core-values/email.png">
+                    <p>email@smilefoundation.org</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
                  </div>
              </div>
          </div>
