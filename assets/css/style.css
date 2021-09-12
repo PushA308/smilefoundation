@@ -2033,11 +2033,20 @@ body {
 
 
 /*volunteer-columns*/
+.volunteer-c-info {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+  margin: auto;
+  padding: 10px;
+}
+
 .volunteer-c {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 800px; /* Should be removed. Only for demonstration */
+  height: 900px; /* Should be removed. Only for demonstration */
   margin: auto;
   padding: 10px;
 }
