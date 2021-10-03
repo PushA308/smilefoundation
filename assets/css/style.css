@@ -680,12 +680,12 @@ header .nav-items {
 .mission-vision {
   background-color: #FFF; }
   .mission-vision .mission {
-    padding: 50px; }
+    padding: 20px 70px; }
     @media screen and (max-width: 940px) {
       .mission-vision .mission {
         padding: 30px 10px; } }
   .mission-vision .vision {
-    padding: 50px; }
+    padding: 20px 90px; }
     @media screen and (max-width: 940px) {
       .mission-vision .vision {
         padding: 30px 10px; } }
@@ -2050,9 +2050,6 @@ body {
   margin: auto;
   padding: 10px;
 }
-
-
-/*join-us page */
 
 
 /*# sourceMappingURL=style.css.map */
