@@ -693,33 +693,31 @@ header .nav-items {
     margin: auto; }
 
     /* ===================================== Charity Number CSS ================================== */
-  .doctor-message {
-    background-image: url("../images/background/a1.jpg");
-    background-attachment: fixed;
-    background-size: cover; }
-    .doctor-message .session-title h2 {
-      text-align: center;
-      color: #FFF; }
-
-  .doctor-message .inner-lay {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 50px;
-    color: #FFF; }
-
-  @media screen and (max-width: 940px) {
-    .doctor-message .inner-lay {
-      padding: 30px 10px; } }
-  .doctor-message .inner-lay .numb {
-    text-align: center;
-    padding: 30px; }
-
-  .doctor-message .inner-lay .numb h3 {
-    font-size: 42px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #CCC;
-    margin-bottom: 20px;
-    color: #FFF; }
-
+    /* Achivements Section */
+#achievements {
+  padding: 100px 0;
+  background: #7bc3d1;
+}
+#achievements h2 {
+  color: #fff;
+}
+#achievements hr {
+  background: rgba(255,255,255,0.3);
+}
+.achievement-box h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.achievement-box span.count {
+  font-size: 52px;
+  font-weight: 600;
+  display: block;
+  color: #121d1f;
+  padding: 0;
+  margin: 0;
+}
 
 /* ================================ Footer CSS =============================== */
 footer {
