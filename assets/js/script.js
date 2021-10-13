@@ -231,22 +231,29 @@ $('#status').text(jqXHR);
 });
 
 
-function main() {
+// number count for stats, using jQuery animate
 
-(function () {
-      
-    // CounterUp
-  $(document).ready(function( $ ) {
-    if($("span.count").length > 0){ 
-      $('span.count').counterUp({
-          delay: 10, // the delay time in ms
-      time: 1500 // the speed time in ms
-      });
-    }
-  });
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
   
-}());
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
 
-}
-main();
+  {
 
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
