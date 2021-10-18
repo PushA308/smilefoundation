@@ -2045,17 +2045,31 @@ body {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 450px; /* Should be removed. Only for demonstration */
+  height: 450px; /*information to become volunteer  */
   margin: auto;
   padding: 10px;
 }
 
 .volunteer-c {
+  width: 50%;
+  padding: 10px;
+  height: 1550px; /* become vounteer form */
+  padding: 10px;
+}
+
+/*volunteer-columns*/
+.donate-info {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 1010px; /* Should be removed. Only for demonstration */
+  height: 450px; /*information to become volunteer  */
   margin: auto;
+  padding: 10px;
+}
+.donate {
+  width: 50%;
+  padding: 10px;
+  height: 750px; /* become vounteer form */
   padding: 10px;
 }
 
