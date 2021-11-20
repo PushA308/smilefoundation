@@ -217,3 +217,79 @@ But you can read the following facts in order to make sure of all pluses of our 
             </div>
         </div>
     </div> 
+
+    //old services one template
+
+            <div class="row">
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="assets/images/sample.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="assets/images/sample.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="assets/images/sample.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+//css continues of services
+
+body {
+  padding-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border: 1px solid #f47414;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid > article i {
+  font-size: 48px;
+  line-height: 70px;
+  height: 80px;
+  width: 80px;
+  border: 6px solid white;
+  border-radius: 50%;
+  background-color: #f47414;
+  text-align: center;
+  color: white;
+  margin-top: -36px;
+}
+
+.grid .text {
+  padding: 16px 20px 30px;
+}
+
+.grid .btn {
+  margin-top: 20px;
+}
