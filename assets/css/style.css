@@ -2046,9 +2046,9 @@ hr {
 /*donate-columns*/
 .donate-info {
   float: left;
-  width: 30%;
+  width: 60%;
   padding: 10px;
-  height: 500px; /*information to become volunteer  */
+  height: 350px; /*information to become volunteer  */
   margin: auto;
   padding: 10px;
 }
@@ -2065,7 +2065,7 @@ hr {
 .donate {
   width: 50%;
   padding: 10px;
-  height: 650px; /* become vounteer form */
+  height: 850px; /* become vounteer form */
   padding: 10px;
 }
 
