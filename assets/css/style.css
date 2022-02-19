@@ -2027,16 +2027,16 @@ hr {
 
 
 /*volunteer-columns*/
-.volunteer-c-info {
+.volunteer-info {
   float: left;
-  width: 50%;
-  padding: 10px;
-  height: 450px; /*information to become volunteer  */
+  width: 60%;
+  padding: 10px; /*information to become volunteer  */
   margin: auto;
   padding: 10px;
+  text-align: left;
 }
 
-.volunteer-c {
+.volunteer-form {
   width: 50%;
   padding: 10px;
   height: 1000px; /* become vounteer form */
