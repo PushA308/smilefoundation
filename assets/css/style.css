@@ -2044,23 +2044,6 @@ hr {
 }
 
 /*donate-columns*/
-.donate-info {
-  float: left;
-  width: 60%;
-  padding: 10px;
-  height: 350px; /*information to become volunteer  */
-  margin: auto;
-  padding: 10px;
-}
-
-.donate-info2 {
-  float: left;
-  width: 65%;
-  padding: 10px;
-  height: 450px; /*information to become volunteer  */
-  margin: auto;
-  padding: 10px;
-}
 
 .donate {
   width: 50%;
